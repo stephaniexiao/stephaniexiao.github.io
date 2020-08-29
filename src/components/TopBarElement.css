@@ -1,0 +1,32 @@
+.TopBarElement {
+  margin-right: 3%;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-family: "Spartan";
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #555b6e;
+  border-radius: 25;
+}
+
+.TopBarElement:hover {
+  background-color: #e8f6f3;
+  font-weight: 640;
+  border-radius: 5px;
+}
+
+a.title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  color: black;
+  border-bottom: 3px solid #ffc64c;
+  transition: 0.4s;
+}

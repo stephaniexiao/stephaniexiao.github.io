@@ -1,0 +1,30 @@
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-headercontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detail-header {
+  font-family: "Spartan";
+  font-weight: 500;
+  margin-bottom: 1%;
+}
+
+.detail-subheader {
+  font-family: "Spartan";
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.detail-text {
+  margin-top: 1%;
+  width: 45%;
+  margin-bottom: 3%;
+}

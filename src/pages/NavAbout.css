@@ -1,0 +1,23 @@
+.topbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 7%;
+  margin-right: 7%;
+  height: 130px;
+}
+
+.initials {
+  font-family: "Spartan";
+  font-weight: 400;
+  font-size: 55px;
+  color: #555b6e;
+  text-decoration: none;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}

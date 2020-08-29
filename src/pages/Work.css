@@ -1,0 +1,108 @@
+.workcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  scroll-behavior: smooth;
+}
+
+.landingcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15%;
+}
+
+.landing-img {
+  width: 1500px;
+  height: 500px;
+}
+
+.name {
+  font-family: "Spartan";
+  font-weight: 300;
+  font-size: 65px;
+  position: absolute;
+  top: 250px;
+  /* color: #555b6e; */
+}
+
+.roles {
+  font-family: "Spartan";
+  font-weight: 200;
+  font-size: 30px;
+  position: absolute;
+  top: 380px;
+  /* color: #555b6e; */
+}
+
+.down-arrow {
+  height: 45px;
+  width: 45px;
+  position: absolute;
+  top: 500px;
+}
+
+.projectscontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 85%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project-buffer {
+  margin-bottom: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.project-photo {
+  position: absolute;
+  width: 440px;
+  height: 300px;
+}
+
+.overlay {
+  top: 0;
+  height: 300px;
+  width: 440px;
+  border-radius: 10px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #faf9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project:hover .overlay {
+  opacity: 0.9;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  text-decoration: none;
+}
+
+.project-title {
+  font-family: "Spartan";
+  text-decoration: none;
+  font-weight: 600;
+  color: #555b6e;
+  font-size: 24px;
+}
+
+.project-subtitle {
+  font-family: "Spartan";
+  text-decoration: none;
+  font-weight: 400;
+  color: #555b6e;
+  text-align: center;
+  font-size: 16px;
+}
+
+.no-underline {
+  text-decoration: none;
+}
