@@ -9,13 +9,13 @@ export default function NavContact(props) {
   return (
     <div>
       <div class="topbar">
-        <a href="/work" className="no-underline">
+        <a href="/#work" className="no-underline">
           <h1 className="initials">SX</h1>
         </a>
         <div className="tabs">
-          <TopBarElement title="About" link="/about" />
-          <TopBarElement title="Work" link="/work#experiences" />
-          <TopBarElement title="Contact" link="/contact" />
+          <TopBarElement title="About" link="/#/about" />
+          <TopBarElement title="Work" link="/#work" />
+          <TopBarElement title="Contact" link="/#/contact" />
           <TopBarElement title="Resume" link={Resume} />
         </div>
       </div>
