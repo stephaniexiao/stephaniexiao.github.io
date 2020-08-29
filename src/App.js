@@ -20,13 +20,13 @@ class App extends React.Component {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Work} />
-          <Route exact path="/work" component={Work} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/carpemed" component={CarpeMed} />
-          <Route exact path="/libraryapp" component={LibraryApp} />
-          <Route exact path="/energydemo" component={EnergyDemo} />
-          <Route exact path="/foodieme" component={FoodieMe} />
+          <Route path="/work" component={Work} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/carpemed" component={CarpeMed} />
+          <Route path="/libraryapp" component={LibraryApp} />
+          <Route path="/energydemo" component={EnergyDemo} />
+          <Route path="/foodieme" component={FoodieMe} />
         </Switch>
       </BrowserRouter>
     );
