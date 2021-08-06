@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4b72ac6a.chunk.css",
+    "main.js": "/static/js/main.680f4233.chunk.js",
+    "main.js.map": "/static/js/main.680f4233.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.177253d1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.177253d1.js.map",
+    "static/js/2.34480900.chunk.js": "/static/js/2.34480900.chunk.js",
+    "static/js/2.34480900.chunk.js.map": "/static/js/2.34480900.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.004849c6f083d81b00cc05502fef6f35.js": "/precache-manifest.004849c6f083d81b00cc05502fef6f35.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.4b72ac6a.chunk.css.map": "/static/css/main.4b72ac6a.chunk.css.map",
+    "static/js/2.34480900.chunk.js.LICENSE.txt": "/static/js/2.34480900.chunk.js.LICENSE.txt",
+    "static/media/carpemed.png": "/static/media/carpemed.53b62b5d.png",
+    "static/media/carpemedbanner.png": "/static/media/carpemedbanner.47d9219a.png",
+    "static/media/carpemedgame.png": "/static/media/carpemedgame.7a5928dc.png",
+    "static/media/carpemedslack.png": "/static/media/carpemedslack.3d8e052e.png",
+    "static/media/carpemedteam.png": "/static/media/carpemedteam.a97b06f3.png",
+    "static/media/cover1.png": "/static/media/cover1.e05231d5.png",
+    "static/media/cover2.png": "/static/media/cover2.12d3a02b.png",
+    "static/media/cover3.png": "/static/media/cover3.50d531a8.png",
+    "static/media/downarrow.png": "/static/media/downarrow.5061ab34.png",
+    "static/media/energy1.png": "/static/media/energy1.def02043.png",
+    "static/media/energy2.png": "/static/media/energy2.f54b9a37.png",
+    "static/media/energydemo.png": "/static/media/energydemo.4e265020.png",
+    "static/media/foodiehome.png": "/static/media/foodiehome.3d64c822.png",
+    "static/media/foodielist.png": "/static/media/foodielist.dd077b9a.png",
+    "static/media/foodieme2.png": "/static/media/foodieme2.33c278a5.png",
+    "static/media/landingart.png": "/static/media/landingart.d197b605.png",
+    "static/media/libraryapp.png": "/static/media/libraryapp.a6e5f8ad.png",
+    "static/media/masterschedule.png": "/static/media/masterschedule.a4f16cbb.png",
+    "static/media/resume.pdf": "/static/media/resume.40ee4ca3.pdf",
+    "static/media/spotify.png": "/static/media/spotify.5937890d.png",
+    "static/media/steph.JPG": "/static/media/steph.fa61e47e.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.177253d1.js",
+    "static/js/2.34480900.chunk.js",
+    "static/css/main.4b72ac6a.chunk.css",
+    "static/js/main.680f4233.chunk.js"
+  ]
+}

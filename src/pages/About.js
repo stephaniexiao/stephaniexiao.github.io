@@ -22,9 +22,9 @@ export default class About extends React.Component {
             <a className="textlink" href="https://codebase.berkeley.edu/">
               Berkeley Codebase
             </a>
-            , teching fundamental data science concepts as a{" "}
+            , teaching fundamental data science concepts as a{" "}
             <a className="textlink" href="http://data8.org/">
-              Data 8 Tutor
+              Data 8 Undergraduate Student Instructor
             </a>
             , and creating promotional graphics and social media campaigns as
             Vice President of Marketing at{" "}
