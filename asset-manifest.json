@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.4b72ac6a.chunk.css",
-    "main.js": "/static/js/main.680f4233.chunk.js",
-    "main.js.map": "/static/js/main.680f4233.chunk.js.map",
+    "main.js": "/static/js/main.8e88d044.chunk.js",
+    "main.js.map": "/static/js/main.8e88d044.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.177253d1.js",
     "runtime-main.js.map": "/static/js/runtime-main.177253d1.js.map",
-    "static/js/2.34480900.chunk.js": "/static/js/2.34480900.chunk.js",
-    "static/js/2.34480900.chunk.js.map": "/static/js/2.34480900.chunk.js.map",
+    "static/js/2.f809b356.chunk.js": "/static/js/2.f809b356.chunk.js",
+    "static/js/2.f809b356.chunk.js.map": "/static/js/2.f809b356.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.004849c6f083d81b00cc05502fef6f35.js": "/precache-manifest.004849c6f083d81b00cc05502fef6f35.js",
+    "precache-manifest.b9c14bf349fe5c83ce38ca8ea498bf80.js": "/precache-manifest.b9c14bf349fe5c83ce38ca8ea498bf80.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.4b72ac6a.chunk.css.map": "/static/css/main.4b72ac6a.chunk.css.map",
-    "static/js/2.34480900.chunk.js.LICENSE.txt": "/static/js/2.34480900.chunk.js.LICENSE.txt",
+    "static/js/2.f809b356.chunk.js.LICENSE.txt": "/static/js/2.f809b356.chunk.js.LICENSE.txt",
     "static/media/carpemed.png": "/static/media/carpemed.53b62b5d.png",
     "static/media/carpemedbanner.png": "/static/media/carpemedbanner.47d9219a.png",
     "static/media/carpemedgame.png": "/static/media/carpemedgame.7a5928dc.png",
@@ -36,8 +36,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.177253d1.js",
-    "static/js/2.34480900.chunk.js",
+    "static/js/2.f809b356.chunk.js",
     "static/css/main.4b72ac6a.chunk.css",
-    "static/js/main.680f4233.chunk.js"
+    "static/js/main.8e88d044.chunk.js"
   ]
 }
