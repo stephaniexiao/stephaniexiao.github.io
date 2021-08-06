@@ -3,9 +3,7 @@ import { Link } from 'react-router-dom';
 import "./FoodieMe.css";
 
 //tab imports
-import TopBarElement from "../components/TopBarElement";
-import ResumeNavElement from "../components/ResumeNavElement"
-import Resume from "../assets/resume.pdf";
+import NavTabs from "./NavTabs";
 
 import foodiehome from "../assets/foodiehome.png";
 import foodielist from "../assets/foodielist.png";
@@ -22,12 +20,7 @@ export default class EnergyDemo extends React.Component {
           <Link to="/work" className="no-underline">
             <h1 className="initials">SX</h1>
           </Link>
-          <div className="tabs">
-            <TopBarElement title="About" link="/about" />
-            <TopBarElement title="Work" link="/#work" />
-            <TopBarElement title="Contact" link="/contact" />
-            <ResumeNavElement title="Resume" link={Resume} />
-          </div>
+          <NavTabs />
         </div>
         <div className="detail-container">
           <div className="detail-headercontainer">

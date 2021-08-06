@@ -1,10 +1,10 @@
 import React from "react";
 import "./TopBarElement.css";
 
-export default function ResumeNavElement(props) {
+export default function SmoothScrollElement(props) {
   return (
     <div className="TopBarElement">
-      <a className="title" href={props.link} without rel="noopener noreferrer" target="_blank">
+      <a className="title" href={props.link}>
         {props.title}
       </a>
     </div>

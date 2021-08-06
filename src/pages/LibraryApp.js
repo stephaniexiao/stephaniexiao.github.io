@@ -3,9 +3,7 @@ import { Link } from 'react-router-dom';
 import "./LibraryApp.css";
 
 //tab imports
-import TopBarElement from "../components/TopBarElement";
-import Resume from "../assets/resume.pdf";
-import ResumeNavElement from "../components/ResumeNavElement"
+import NavTabs from "./NavTabs";
 
 import masterschedule from "../assets/masterschedule.png";
 import cover1 from "../assets/cover1.png";
@@ -25,12 +23,7 @@ export default class LibraryApp extends React.Component {
           <Link to="/work" className="no-underline">
             <h1 className="initials">SX</h1>
           </Link>
-          <div className="tabs">
-            <TopBarElement title="About" link="/about" />
-            <TopBarElement title="Work" link="/#work" />
-            <TopBarElement title="Contact" link="/contact" />
-            <ResumeNavElement title="Resume" link={Resume} />
-          </div>
+          <NavTabs />
         </div>
         <div className="detail-container">
           <div className="detail-headercontainer">
