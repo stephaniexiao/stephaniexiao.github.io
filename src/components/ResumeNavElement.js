@@ -5,9 +5,9 @@ import "./TopBarElement.css";
 export default function TopBarElement(props) {
   return (
     <div className="TopBarElement">
-      <Link className="title" to={props.link}>
+      <a className="title" href={props.link}>
         {props.title}
-      </Link>
+      </a>
     </div>
   );
 }

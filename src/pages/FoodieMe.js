@@ -3,6 +3,7 @@ import "./FoodieMe.css";
 
 //tab imports
 import TopBarElement from "../components/TopBarElement";
+import ResumeNavElement from "../components/ResumeNavElement"
 import Resume from "../assets/resume.pdf";
 
 import foodiehome from "../assets/foodiehome.png";
@@ -21,10 +22,10 @@ export default class EnergyDemo extends React.Component {
             <h1 className="initials">SX</h1>
           </a>
           <div className="tabs">
-            <TopBarElement title="About" link="/#/about" />
-            <TopBarElement title="Work" link="/#work" />
-            <TopBarElement title="Contact" link="/#/contact" />
-            <TopBarElement title="Resume" link={Resume} />
+            <TopBarElement title="About" link="/about" />
+            <TopBarElement title="Work" link="/work" />
+            <TopBarElement title="Contact" link="/contact" />
+            <ResumeNavElement title="Resume" link={Resume} />
           </div>
         </div>
         <div className="detail-container">

@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import About from "./pages/NavAbout";
 import Work from "./pages/NavWork";
@@ -17,7 +17,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <HashRouter>
+      <Router>
         <Switch>
           <Route exact path="/" component={Work} />
           <Route path="/work" component={Work} />
@@ -28,7 +28,7 @@ class App extends React.Component {
           <Route path="/energydemo" component={EnergyDemo} />
           <Route path="/foodieme" component={FoodieMe} />
         </Switch>
-      </HashRouter>
+      </Router>
     );
   }
 }
