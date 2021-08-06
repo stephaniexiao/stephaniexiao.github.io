@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "../components/TopBarElement.css";
 import TopBarElement from "../components/TopBarElement";
 import ResumeNavElement from "../components/ResumeNavElement"
@@ -10,9 +11,9 @@ export default function NavWork(props) {
   return (
     <div>
       <div class="topbar">
-        <a href="/#work" className="no-underline">
+        <Link to="/work" className="no-underline">
           <h1 className="initials">SX</h1>
-        </a>
+        </Link>
         <div className="tabs">
           <TopBarElement title="About" link="/about" />
           <TopBarElement title="Work" link="/work" />

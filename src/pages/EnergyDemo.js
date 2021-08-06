@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "./EnergyDemo.css";
 
 //tab imports
@@ -18,9 +19,9 @@ export default class EnergyDemo extends React.Component {
     return (
       <div>
         <div className="topbar">
-          <a href="/#work" className="no-underline">
+          <Link to="/work" className="no-underline">
             <h1 className="initials">SX</h1>
-          </a>
+          </Link>
           <div className="tabs">
             <TopBarElement title="About" link="/about" />
             <TopBarElement title="Work" link="/work" />
