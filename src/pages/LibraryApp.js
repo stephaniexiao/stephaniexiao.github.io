@@ -27,7 +27,7 @@ export default class LibraryApp extends React.Component {
           </Link>
           <div className="tabs">
             <TopBarElement title="About" link="/about" />
-            <TopBarElement title="Work" link="/work" />
+            <TopBarElement title="Work" link="/#work" />
             <TopBarElement title="Contact" link="/contact" />
             <ResumeNavElement title="Resume" link={Resume} />
           </div>
